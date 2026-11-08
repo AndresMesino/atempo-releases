@@ -1,5 +1,26 @@
 # Registro de cambios de ATEMPO
 
+## 0.13.0 — 2026-11-08
+
+Correcciones importantes en alarmas y avisos para los eventos del calendario.
+
+### Novedades
+- Avisos de eventos del calendario: notificación el día del evento a las 6:00 a. m. (hora editable y se puede desactivar). Las fechas especiales se avisan cada año; las vacaciones, el primer día. Al tocar el aviso se abre el evento.
+- Selector de tipo de evento en tarjetas con ícono, color y el nombre completo; descripción, repetición anual y aviso pasan a «Ver más».
+
+### Correcciones
+- Eliminar una alarma desde su detalle ya no deja la pantalla en negro: vuelve a la pantalla de la que venías y quita también su programación.
+- Las alarmas rápidas suenan exactamente a los minutos elegidos: «+5 min» ya no dice ni programa 6 minutos.
+- El tiempo restante de la próxima alarma en Inicio se calcula con la hora real (no con un minuto de más).
+- Después de abrir un evento desde su notificación, «Inicio» en la barra inferior vuelve a funcionar, y al regresar al Calendario el evento no se vuelve a abrir.
+- Una alarma pospuesta y luego detenida ya no cuenta para el logro «Sin posponer».
+- Estado del sistema: «Optimización de batería» indica «Desactivada para ATEMPO» en vez de un confuso «Habilitado».
+- En el formulario de eventos, con «Ver más» abierto, el contenido se desplaza y la descripción ya no queda fuera de la pantalla.
+
+### Mejoras
+- Al crear una alarma, la hora inicial es la siguiente en múltiplos de 5 minutos (3:37 → 3:40).
+- Estado del sistema más claro: grupos «Configuración automática» y «Configuración manual», con indicadores de check, alerta o pendiente. Se quitaron el diagnóstico técnico y la guía del fabricante.
+
 ## 0.12.0 — 2026-11-08
 
 Logros que se adaptan a ti, un inicio automático que se comprueba solo y un Inicio más limpio.
