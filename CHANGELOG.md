@@ -1,5 +1,26 @@
 # Registro de cambios de ATEMPO
 
+## 0.12.0 — 2026-11-08
+
+Logros que se adaptan a ti, un inicio automático que se comprueba solo y un Inicio más limpio.
+
+### Novedades
+- Logros dinámicos: hasta 5 objetivos a la vez según lo que haces de verdad (tareas, alarmas atendidas, puntualidad, constancia, tomas, retos y calendario). Al completar uno pasa a «Completados» y aparece el siguiente, con una dificultad que crece poco a poco.
+- Pantalla de Logros con progreso animado, nivel y categoría, y el detalle de cada logro: objetivo exacto, qué cuenta y desde cuándo.
+- Celebración al desbloquear un logro y notificación opcional. Se activan o desactivan en Configuración; desactivarlos no borra lo conseguido.
+- Acceso directo a Logros (trofeo) junto al engranaje en Inicio.
+- Diagnóstico interno en Estado del sistema: ATEMPO comprueba en silencio, sin crear alarmas ni hacer ruido, si Android la despierta con la app cerrada y si recupera las alarmas tras reiniciar.
+
+### Correcciones
+- La lista de próximas alarmas de Inicio ya no se salta la siguiente ejecución: una alarma diaria muestra mañana antes que pasado mañana, en orden real e incluyendo las postergaciones.
+
+### Mejoras
+- Inicio automático con estados claros: Verificado, Pendiente de verificación, Confirmación manual, No configurado o No disponible. Al volver de su ajuste puedes indicar si ya está activado.
+- Se retiró «Probar alarma»: ya no hace falta programar una alarma para comprobarlo.
+- Actualizaciones muestra siempre la última versión publicada y sus novedades al entrar, también sin conexión (con la fecha de la última consulta). «Verificar nuevamente» queda como acción secundaria y «Actualizar» como la principal.
+- Inicio más limpio: sin los contadores de alarmas ni «Ver todas» en tareas.
+- Detalle de alarmas recurrentes: las cuatro acciones en una cuadrícula compacta, con una explicación breve y su estado (pausada hasta, fechas excluidas...).
+
 ## 0.11.0 — 2026-11-08
 
 Alarmas más fiables y un historial que explica qué pasó con cada una.
