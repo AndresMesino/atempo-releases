@@ -1,5 +1,18 @@
 # Registro de cambios de ATEMPO
 
+## 0.14.0 — 2026-11-08
+
+Ahora puedes cancelar una alarma pospuesta sin desactivarla para los días siguientes.
+
+### Novedades
+- Cancelar postergación: mientras una alarma está pospuesta aparece un aviso silencioso «Trabajo · Pospuesta · Volverá a sonar a las 7:10 a. m.» con el botón «Cancelar postergación», que funciona aunque la app esté cerrada.
+- La misma opción está en el detalle de la alarma, en la tarjeta de la próxima alarma en Inicio y en el menú de la alarma en la lista de Alarmas (que ahora indica «Pospuesta · volverá a sonar a las…»).
+- Solo se cancela esa repetición: la alarma sigue activada y vuelve a sonar normalmente la próxima vez. Una alarma de una sola vez queda terminada, igual que al detenerla.
+
+### Mejoras
+- El historial de la alarma indica «Cancelaste la postergación».
+- Cancelar la postergación cuenta como alarma atendida en los logros, pero no como detenida «sin posponer».
+
 ## 0.13.0 — 2026-11-08
 
 Correcciones importantes en alarmas y avisos para los eventos del calendario.
