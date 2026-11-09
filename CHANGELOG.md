@@ -1,5 +1,22 @@
 # Registro de cambios de ATEMPO
 
+## 0.15.0 — 2026-11-09
+
+Estado del sistema más preciso y aviso 5 minutos antes de cada alarma.
+
+### Novedades
+- Aviso previo: 5 minutos antes de que suene una alarma aparece la notificación «¡Tu alarma está por sonar!» con su nombre, la hora real y una cuenta regresiva. También funciona con las alarmas pospuestas (se calcula con la nueva hora). Es silenciosa para no despertarte antes de tiempo y se puede desactivar en cada alarma, en «Más opciones» › «Aviso previo».
+- Logo de ATEMPO en Inicio, junto al nombre.
+
+### Correcciones
+- Alarmas exactas: ATEMPO ya no dice «Habilitado» cuando «Alarmas y recordatorios» está desactivado. En Android 12, si la batería de ATEMPO está «Sin restricciones», Android igual permite alarmas exactas; ahora se indica así, con la recomendación de activar el permiso. Si no hay permiso ni exención, se marca como crítico (Android podía retrasar la alarma hasta una hora).
+- Volumen de alarmas: se evalúa en porcentaje del máximo de tu teléfono y advierte si está bajo (menos de 20 %) o en el mínimo, también en teléfonos que no permiten bajarlo a 0. Muestra el porcentaje y abre el control de volumen.
+- Batería: un solo indicador con los mismos estados que muestra Android («Sin restricciones», «Optimizado», «Restringido»), sin indicadores que se contradigan.
+
+### Mejoras
+- Nuevo indicador informativo «Bloqueo de pantalla» que explica que no es necesario para que las alarmas suenen.
+- «Usar los colores de tu fondo de pantalla» explica lo que hace (Material You) y ahora también colorea la tarjeta principal de Inicio. Solo aparece en Android 12 o superior.
+
 ## 0.14.0 — 2026-11-08
 
 Ahora puedes cancelar una alarma pospuesta sin desactivarla para los días siguientes.
