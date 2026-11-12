@@ -1,5 +1,16 @@
 # Registro de cambios de ATEMPO
 
+## 0.16.0 — 2026-11-12
+
+Detalle en los eventos y alarmas que empiezan a sonar más pronto.
+
+### Novedades
+- Detalle de los eventos: cada evento puede tener un detalle opcional de varias líneas (hasta 500 caracteres) en «Ver más». Si el evento ya tiene detalle, «Ver más» se abre solo. En la agenda del día se muestra recortado y solo si existe.
+
+### Mejoras
+- El sonido de la alarma comienza antes: ATEMPO comprueba que la alarma siga vigente, la hace sonar y solo después programa la siguiente y guarda el historial (antes todo eso ocurría antes del sonido).
+- ATEMPO mide internamente cuánto tarda cada alarma en sonar respecto de su hora, para poder diagnosticar retrasos. No hay pantalla ni nada que configurar.
+
 ## 0.15.0 — 2026-11-09
 
 Estado del sistema más preciso y aviso 5 minutos antes de cada alarma.
