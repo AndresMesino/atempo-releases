@@ -1,5 +1,17 @@
 # Registro de cambios de ATEMPO
 
+## 0.17.0 — 2026-11-13
+
+Los eventos ahora se consultan en una pantalla de detalle antes de editarlos.
+
+### Novedades
+- Pantalla de detalle del evento: al tocar un evento en el calendario, o su notificación, se abre una vista con el nombre, el tipo, la fecha y el día de la semana, el estado (hoy, en curso, dentro de N días o ya pasó), si se repite cada año, cuándo se enviará el aviso y el detalle, solo con lo que el evento realmente tiene.
+- Desde el detalle, «Editar» abre el formulario con los valores actuales y «Eliminar» (en el menú ⋮) pide confirmación.
+
+### Correcciones
+- Tocar un evento ya no abre directamente el formulario de edición.
+- Si abres la notificación de un evento que ya se eliminó, ATEMPO lo indica y ofrece ir al calendario, en lugar de mostrar una pantalla vacía.
+
 ## 0.16.0 — 2026-11-12
 
 Detalle en los eventos y alarmas que empiezan a sonar más pronto.
