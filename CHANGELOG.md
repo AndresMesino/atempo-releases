@@ -1,5 +1,14 @@
 # Registro de cambios de ATEMPO
 
+## 0.18.0 — 2026-11-24
+
+Llegan las notas con listas y la conexión con el reloj Amazfit.
+
+### Novedades
+- Notas: título, texto y categoría opcionales, y una lista de ítems para marcar. Se abren desde el ícono de notas en Mis tareas y se guardan solas al volver.
+- Cada ítem de una lista puede tener su propia alarma; «Alarma para cada ítem» se la pone de una vez a todos los que aún no tienen. Marcar el ítem desactiva su alarma y eliminar la nota borra las alarmas que se crearon para ella.
+- Reloj Amazfit: en Configuración › Reloj Amazfit se vincula la nueva app ATEMPO del reloj. El reloj agenda tus alarmas de las próximas 48 horas y suena y vibra por su cuenta; detenerla o posponerla en el reloj no cambia la del teléfono, y cada uno guarda su propio historial.
+
 ## 0.17.0 — 2026-11-13
 
 Los eventos ahora se consultan en una pantalla de detalle antes de editarlos.
